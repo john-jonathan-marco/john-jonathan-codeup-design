@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+}
+
+div.row {
+    background-color: #e6e6e6;
+    padding: 2em;
+}
+
+div img {
+    /*display: flex;*/
+    /*align-self: center;*/
+    height: 105px;
+    width: 105px;
+
+
+}
+
+/*@media screen and (width:){*/
+/*    */
+/*}*/
