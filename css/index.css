@@ -6,8 +6,12 @@ body {
     background-color: #e6e6e6;
 }
 
-div.row {
+.container {
+    border: 1px dashed red;
+}
 
+div.row {
+    border: 1px dashed blue;
 }
 
 img {
