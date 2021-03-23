@@ -16,6 +16,13 @@ img {
 
 
 }
+h1 {
+    font-family: "abel", "sans-serif";
+}
+
+li {
+    font-family: "abel", sans-serif;
+}
 
 /*@media screen and (width:){*/
 /*    */
