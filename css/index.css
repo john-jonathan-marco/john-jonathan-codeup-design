@@ -1,9 +1,10 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*height: 100vh;*/
     background-color: #e6e6e6;
+    padding:10px;
 }
 
 .container {
@@ -40,8 +41,36 @@ li {
     font-family: "abel", sans-serif;
 }
 
+.design {
+    background-color: #e6563b;
+    height: 18px;
+    width: 18px;
+    border: 9px solid white;
+    text-align: center;
+}
 
 
+.develop {
+    background-color: #eb9d3a ;
+    height: 18px;
+    width: 18px;
+    border: 9px solid white;
+}
+
+.support {
+    background-color: #7cb06c;
+    height: 18px;
+    width: 18px;
+    border: 9px solid white;
+}
+
+.host {
+    background-color: #00aba9;
+    height: 18px;
+    width: 18px;
+    border: 9px solid white;
+}
 /*@media screen and (width:){*/
 /*    */
 /*}*/
+
