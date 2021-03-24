@@ -6,13 +6,13 @@ body {
     background-color: #e6e6e6;
 }
 
-/*.container {*/
-/*    border: 1px dashed red;*/
-/*}*/
+.container {
+    border: 1px dashed red;
+}
 
-/*div.row {*/
-/*    border: 1px dashed blue;*/
-/*}*/
+div.row {
+    border: 1px dashed blue;
+}
 
 .background {
     height: 60px;
@@ -28,13 +28,11 @@ img {
 
 }
 
-h1 {
-    font-family: "anton", sans-serif;
+/*h1 {*/
 
-}
+/*}*/
 
 h2 {
-    font-family: "abel", "sans-serif";
     margin-top: 30px;
 }
 
