@@ -1,76 +1,94 @@
 body {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*height: 100vh;*/
     background-color: #e6e6e6;
-    padding:10px;
 }
-
-.container {
-    border: 1px dashed red;
-}
-
-div.row {
-    border: 1px dashed blue;
-}
-
-.background {
-    height: 60px;
-
-}
-
-img {
-    height: 105px;
-    width: 105px;
-    position: relative;
-    align-self: center;
-
-
-}
-
-/*h1 {*/
-
+/*div.tall-row {*/
+/*    height:auto;*/
+/*    width: auto;*/
 /*}*/
 
-h2 {
-    margin-top: 30px;
+nav img {
+    height: 105px;
+    width: 105px;
+    position: absolute;
+    align-self: center;
+
+}
+main img {
+    margin: 0 auto;
+    height: 200px;
+    width: 300px;
 }
 
-li {
+nav a {
+    color:black;
     font-family: "abel", sans-serif;
 }
 
-.design {
-    background-color: #e6563b;
-    height: 18px;
-    width: 18px;
-    border: 9px solid white;
-    text-align: center;
+.abel {
+    font-family: "abel", sans-serif;
 }
 
+.anton {
+    font-family: "anton", sans-serif;
+}
+
+/*.circle-container {*/
+/*    height: 100vh;*/
+/*    width: 100vh;*/
+/*}*/
+
+.design {
+    background-color: #e6563b;
+    border: 9px solid white;
+    /*border-radius: 50%;*/
+    height: 105px;
+    width: 105px;
+}
 
 .develop {
-    background-color: #eb9d3a ;
-    height: 18px;
-    width: 18px;
+    background-color: #dea03d;
     border: 9px solid white;
+    /*border-radius: 200%;*/
+    height: 105px;
+    width: 105px;
 }
 
 .support {
     background-color: #7cb06c;
-    height: 18px;
-    width: 18px;
     border: 9px solid white;
+    /*border-radius: 200%;*/
+    height: 105px;
+    width: 105px;
 }
 
 .host {
     background-color: #00aba9;
-    height: 18px;
-    width: 18px;
     border: 9px solid white;
+    /*border-radius: 200%;*/
+    height: 105px;
+    width: 105px;
 }
-/*@media screen and (width:){*/
-/*    */
-/*}*/
 
+.d {
+    background-color: #e6563b;
+    height: 30px;
+    width: 30px;
+}
+
+.dev {
+    background-color: #dea03d;
+    height: 30px;
+    width: 30px;
+}
+
+.s {
+    background-color: #7cb06c;
+    height: 30px;
+    width: 30px;
+}
+
+.h {
+    background-color: #00aba9;
+    height: 30px;
+    width: 30px;
+}
